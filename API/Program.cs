@@ -39,6 +39,7 @@ catch (Exception ex)
     logger.LogError(ex, "an error occured during migration");
     
 }
+
 app.Run();
 
 
