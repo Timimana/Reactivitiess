@@ -3,7 +3,6 @@ import { Activity } from '../models/activity';
 import { toast } from 'react-toastify';
 import { router } from '../router/routes';
 import { store } from '../stores/stores';
-import { Router } from 'react-router-dom';
 
 const sleep = (delay: number) => {
     return new Promise((resolve) => {
